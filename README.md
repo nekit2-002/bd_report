@@ -1,2 +1,2 @@
-# uis_report
-This is a report for the "Intellegent ownership manegement" discipline. 
+# Data base report 
+This is a report for the data base discipline.
