@@ -93,80 +93,80 @@ cur\_id, sub\_id, rev\_id, prod\_id, lang\_id, watch\_id, g\_id, pc\_id, vr\_id
 
 \section{Физическое проектирование}
 В качестве СУБД для реализации разработанной базы данных была выбрана
-PostgreSQL. Код для реализации таблиц представлен ниже:
-\begin{itemize}
-\item Для таблицы Actor:
-\begin{figure} [h]
+PostgreSQL. Код для реализации таблиц основных сущностей представлен ниже:
+
+Для таблицы Actor:
+\begin{figure} [h!]
     \center{\includegraphics[width=1\linewidth]{actor}}
     \caption{Фрагмент кода для таблицы Actor}
 \end{figure}
 
-\item  Для таблицы Film:
-\begin{figure} [h]
+Для таблицы Film \ref{film}:
+\begin{figure} [H]
     \center{\includegraphics[width=1\linewidth]{film}}
     \caption{Фрагмент кода для таблицы Film}
+    \label{film}
 \end{figure}
 
-\item Для таблицы User:
-\begin{figure} [h]
+Для таблицы User:
+\begin{figure} [H]
     \center{\includegraphics[width=1\linewidth]{user}}
     \caption{Фрагмент кода для таблицы User}
 \end{figure}
 
-\item Для таблицы Director:
-\begin{figure} [h]
+Для таблицы Director:
+\begin{figure} [H]
     \center{\includegraphics[width=1\linewidth]{director}}
     \caption{Фрагмент кода для таблицы Director}
 \end{figure}
 
-\item Для таблицы Awards:
-\begin{figure} [h]
+Для таблицы Awards:
+\begin{figure} [H]
     \center{\includegraphics[width=1\linewidth]{awards}}
     \caption{Фрагмент кода для таблицы Awards}
 \end{figure}
 
-\item Для таблицы Genre:
-\begin{figure} [h]
+Для таблицы Genre:
+\begin{figure} [H]
     \center{\includegraphics[width=1\linewidth]{genre}}
     \caption{Фрагмент кода для таблицы Genre}
 \end{figure}
 
-\item Для таблицы Review:
-\begin{figure} [h]
+Для таблицы Review:
+\begin{figure} [H]
     \center{\includegraphics[width=1\linewidth]{review}}
     \caption{Фрагмент кода для таблицы Review}
 \end{figure}
 
-\item Для таблицы Languages:
-\begin{figure} [h]
+Для таблицы Languages:
+\begin{figure} [H]
     \center{\includegraphics[width=1\linewidth]{langs}}
     \caption{Фрагмент кода для таблицы Languages}
 \end{figure}
 
-\item Для таблицы Category(хронометраж):
-\begin{figure} [h]
+Для таблицы Category(хронометраж):
+\begin{figure} [H]
     \center{\includegraphics[width=1\linewidth]{category}}
     \caption{Фрагмент кода для таблицы Category}
 \end{figure}
 
-\item Для таблицы Rate review(оценок отзывов):
-\begin{figure} [h]
+Для таблицы Rate review(оценок отзывов):
+\begin{figure} [H]
     \center{\includegraphics[width=1\linewidth]{rate_review}}
     \caption{Фрагмент кода для таблицы Rate review}
 \end{figure}
 
-\item Для таблицы Subtitles:
-\begin{figure} [h]
+Для таблицы Subtitles:
+\begin{figure} [H]
     \center{\includegraphics[width=1\linewidth]{subs}}
     \caption{Фрагмент кода для таблицы Subtitles}
 \end{figure}
 
-\item Для таблицы Prodaction company:
-\begin{figure} [h]
+ Для таблицы Prodaction company:
+\begin{figure} [H]
     \center{\includegraphics[width=1\linewidth]{prod_comp}}
     \caption{Фрагмент кода для таблицы Prodaction}
 \end{figure}
 
-\end{itemize}
 
 \end{document}
