@@ -88,6 +88,17 @@ cur\_id, sub\_id, rev\_id, prod\_id, lang\_id, watch\_id, g\_id, pc\_id, vr\_id
     \label{logic}
 \end{figure}
 
+Все связи типа «Многие ко многим» были реализованы через отдельные таблицы.
 
+\section{Физическое проектирование}
+В качестве СУБД для реализации разработанной базы данных была выбрана
+PostgreSQL. Код для реализации таблиц представлен ниже:
+\begin{itemize}
+\item Для таблицы Actor:
+\begin{figure} [h]
+    \center{\includegraphics[width=1\linewidth]{actor}}
+    \caption{Фрагмент кода для таблицы Actor}
+\end{figure}
+\end{itemize}
 
 \end{document}
